@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em;
+    background-color: #fff;
+}
+.hamburger{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    gap: 1.2em;
+}
+.logo{
+    font-family: 'DM Sans';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    font-weight: bolder;
+}
+
+.hamburger p{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #0a8080;
+}
+
+.hamIcon, .logoIcon{ 
+    font-size: larger;
+}

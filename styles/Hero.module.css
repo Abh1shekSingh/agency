@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    text-align: center;
+    padding: 2rem 2rem;
+    
+}
+
+.headings{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.headings h1{
+    color: #222;
+    font-family: 'B612', sans-serif;
+}
+.headings p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px;
+}
+
+.headings button{
+    width: 40%;
+    padding: 1em 0em;
+    border: none;
+    background-color: #0a8080;
+    color: white;
+    border-radius: 7px;
+    font-family: 'DM Sans',sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
