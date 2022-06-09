@@ -15,7 +15,7 @@
 }
 
 .headings h1{
-    color: #222;
+    color: #333;
     font-family: 'B612', sans-serif;
 }
 .headings p{
@@ -38,4 +38,22 @@
     display: flex;
     justify-content: center;
     cursor: pointer;
+}
+
+@media only screen and (min-width:768px){
+    .container{
+        padding-top: 5em;
+    }
+    .headings h1{
+        font-size: 48px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .headings p{
+        font-size: 18px;
+    }
+
+    .headings button{
+        width: 15%;
+    }
 }

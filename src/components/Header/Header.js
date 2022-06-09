@@ -7,7 +7,15 @@ const Header = () => {
     <div className={style.container}>
         <div className={style.logo}>
             <FaMagento className={style.logoIcon} />
-            Ninja Agents
+            <p>Ninja Agents</p>
+        </div>
+        <div className={style.navlinks}>
+            <ul>
+              <li>Home</li>
+              <li>Services</li>
+              <li>Team</li>
+              <li>Testimonial</li>
+            </ul>
         </div>
         <div className={style.hamburger}>
             <p>Get Started</p>

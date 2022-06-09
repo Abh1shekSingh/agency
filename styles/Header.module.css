@@ -28,5 +28,38 @@
 }
 
 .hamIcon, .logoIcon{ 
+    display: block;
     font-size: larger;
+}
+
+.navlinks{
+    display: none;
+}
+
+@media only screen and (min-width:768px){
+    .container{
+        padding: 2em 7em;
+    }
+    .logo p{
+        font-size: 24px;
+    }
+    .hamIcon{
+        display: none;
+    }
+
+    .logoIcon{
+        font-size: 24px;
+    }
+    .navlinks{
+        display: block;
+
+    }
+
+    .navlinks ul{
+        display: flex;
+        gap: 2em;
+    }
+    .navlinks ul li{
+        cursor: pointer;
+    }
 }
