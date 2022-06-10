@@ -9,7 +9,7 @@ const Hero = () => {
          <h1>Great Stuff is built with amazing developers</h1>
          <p>A service agency with customer satisfaction</p>
          <button>Get Started</button>
-         <Image src={banner} alt=""></Image>
+         <Image src={banner} alt="banner Image"></Image>
       </div>
     </div>
   )

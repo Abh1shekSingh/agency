@@ -27,18 +27,18 @@
     padding: 1em 0em;
 }
 
-.servicesData{
+.serviceHeadings{
     display: flex;
     flex-direction: column;
     gap: 1em;
 }
 
-.servicesData h3{
+.serviceHeadings h3{
     font-family: 'DM Sans', sans-serif;
     font-size: 16px;
     margin-top: 1em ;
 }
-.servicesData p{
+.serviceHeadings p{
     font-family: 'DM Sans', sans-serif;
     font-size: 14px;
     line-height: 2em;
@@ -49,4 +49,11 @@
 
 .serviceImg{
     width: 20%;
+}
+
+.gridContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 auto; */
 }
