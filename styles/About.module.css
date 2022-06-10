@@ -2,6 +2,7 @@
     background-color: #fbf5f1;
     padding: 5em 3em 1em 3em;
     margin-top: 1.5em;
+    gap: 2em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -56,4 +57,23 @@
     justify-content: center;
     align-items: center;
     /* margin: 0 auto; */
+}
+
+@media only screen and (min-width:768px){
+    .heading h2{
+        font-size: 38px;
+    }
+
+    .heading p{
+        width: 80%;
+        margin: 0 auto;
+        font-size: 16px;
+        line-height: 2;
+    }
+    .container{
+        padding-bottom: 5em;
+    }
+    .gridItem{
+        display: flex;
+    }
 }

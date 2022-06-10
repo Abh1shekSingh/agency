@@ -14,8 +14,8 @@ const About = () => {
         <div className={style.services}>
             <Grid className={style.gridContainer} container spacing={2}>
             {serviceData?.map(({id,title,subtitle,image}) => (
-                <Grid item xs={12} md={3} key = {id}>
-                    <Image src={image} alt="serive Logo" width={50} height={50}></Image>
+                <Grid item xs={12} md={3} key = {id} >
+                    <Image src={image} alt="serive Logo" width={60} height={60}></Image>
                     <div className={style.serviceHeadings}>
                         <h3>{title}</h3>
                         <p>{subtitle}</p>

@@ -1,0 +1,106 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 2em 1em 2em;
+    margin: 0 auto;
+}
+
+.hiredevelopers{
+    background-color: #0a8080;
+    text-align: center;
+    padding: 3em 0;
+    color: white;
+    border-radius: 7px;
+   width: 110%;
+}
+
+.hiredevelopers h3{
+    font-family: 'B612' , sans-serif;
+    font-size: 22px;
+}
+
+.hiredevelopers button {
+    padding: 1em;
+    margin-top: 2em ;
+    font-family: 'DM Sans',sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.calltoaction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.footerlogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.copyrightSection{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+.footerlogo h2{
+    font-family: 'B612', sans-serif;
+}
+
+.footerlogoIcon{
+    font-size: 26px;
+}
+
+.copyright p{
+    font-family: 'DM Sans', sans-serif;
+}
+.arrowsvg{
+    display: none;
+}
+.footerLinks{
+    display: none;
+}
+
+@media only screen and (min-width:768px){
+    .hiredevelopers{
+        width: 80%;
+        gap: 1em;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    
+
+    .hiredevelopers h3{
+        font-size: 34px;
+        width: 50%;
+        text-align: left;
+    }
+    .copyrightSection{
+        flex-direction: row;
+    }
+    .footerLinks{
+        display: block;
+        margin-left: 5em;
+
+    }
+    .footerLinks ul{
+        display: flex;
+        gap: 1em;
+    }
+    .footerLinks ul li{cursor: pointer;}
+}
