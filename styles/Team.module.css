@@ -30,9 +30,20 @@
 
 .developersName h4{
     font-family: 'B612', sans-serif;
+    font-size: 18px;
 }
 .developersName p{
     font-family: "DM Sans", sans-serif;
+    color: grey;
+    margin-top:1em;
+    font-size:14px
+}
+
+.socialHandle{
+    display: flex;
+    gap: .8em;
+    justify-content: center;
+    margin: 1em 0;
 }
 
 @media only screen and (min-width:768px){

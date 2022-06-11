@@ -36,12 +36,113 @@ export const serviceData = [
 
 
 export const developers = [
-    {id:1,image:dev1 , name:"Pablo Stanly", handle:"@pablostanly"},
-    {id:2,image:dev2 , name:"Joma", handle:"@jomatech"},
-    {id:3,image:dev3 , name:"Deee", handle:"@deeeeecode"},
-    {id:4,image:dev4 , name:"Adrian", handle:"@adriancode"},
-    {id:5,image:dev5 , name:"Sonny Sangha", handle:"@sonnysangha"},
-    {id:6,image:dev6 , name:"Ishani", handle:"@ishani"},
+    {
+        id:1,image:dev1 ,
+        name:"Pablo Stanly", 
+        role: "Graphics Designer",
+        socialLinks: [
+            {
+              name: 'twitter',
+              link: 'http://twitter.com',
+            },
+            {
+              name: 'dribbble',
+              link: 'http://dribbble.com',
+            },
+          ],
+    },
+    {
+        id:2,
+        image:dev2 , 
+        name:"Joma", 
+        role: "iOS Developer",
+        socialLinks: [
+            {
+              name: 'twitter',
+              link: 'http://twitter.com',
+            },
+            {
+              name: 'github',
+              link: 'http://github.com',
+            },
+          ],
+    },
+    {
+        id:3,
+        image:dev3 , 
+        name:"Deee",
+        role: "Product Designer", 
+        socialLinks: [
+            {
+              name: 'twitter',
+              link: 'http://twitter.com',
+            },
+            {
+              name: 'github',
+              link: 'http://github.com',
+            },
+            {
+              name: 'dribbble',
+              link: 'http://dribbble.com',
+            },
+          ],
+    },
+    {
+        id:4,
+        image:dev4 , 
+        name:"Adrian",
+        role: "Wordpress Developer",
+        socialLinks: [
+            {
+              name: 'twitter',
+              link: 'http://twitter.com',
+            },
+            {
+              name: 'github',
+              link: 'http://github.com',
+            },
+            {
+              name: 'dribbble',
+              link: 'http://dribbble.com',
+            },
+          ],
+    },
+    {
+        id:5,
+        image:dev5 , 
+        name:"Sonny Sangha",
+        role: "Full-Stack Developer", 
+        socialLinks: [
+            {
+              name: 'twitter',
+              link: 'http://twitter.com',
+            },
+            {
+              name: 'github',
+              link: 'http://github.com',
+            },
+          ],
+    },
+    {
+        id:6,
+        image:dev6 , 
+        name:"Ishani", 
+        role: "Front-End Developer",
+        socialLinks: [
+            {
+              name: 'twitter',
+              link: 'http://twitter.com',
+            },
+            {
+              name: 'github',
+              link: 'http://github.com',
+            },
+            {
+              name: 'dribbble',
+              link: 'http://dribbble.com',
+            },
+          ],
+    },
 ];
 
 
