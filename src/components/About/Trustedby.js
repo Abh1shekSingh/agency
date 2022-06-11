@@ -1,35 +1,42 @@
-import React from 'react'
-import Grid from "@mui/material/Grid"
+import React,{useState} from 'react'
 import Image from "next/image"
+import Box from '@mui/material/Box';
+import Tab from '@mui/material/Tab';
+import TabContext from '@mui/lab/TabContext';
+import TabList from '@mui/lab/TabList';
+import TabPanel from '@mui/lab/TabPanel';
 import style from "../../../styles/About.module.css"
-
-import google from "../../assets/trust1.png"
-import paypal from "../../assets/trust2.png"
-import uber from "../../assets/trust4.png"
-import microsoft from "../../assets/trust3.png"
+import {trustedPartners} from "../../constants/constant"
 
 const Trustedby = () => {
+    const [value, setValue] = useState(1);
+
+  const handleChange = (event, newValue) => {
+    setValue(newValue);
+  };
+   
   return (
-    <div className={style.partners}>
-            
-            <Grid container spacing={3}>
-                   
-                <Grid item xs={3} md={3}>
-                    <Image src={google} alt="googleLogo"  />
-                </Grid>
-                <Grid item xs={3} md={3}>
-                    <Image src={uber} alt="googleLogo"  />
-                </Grid>
-                <Grid item xs={3} md={3}>
-                    <Image src={paypal} alt="googleLogo" />
-                </Grid>
-                <Grid item xs={3} md={3}>
-                    <Image src={microsoft} alt="googleLogo" />
-                </Grid>
-                   
-            </Grid>
-          
-        </div>
+    <Box sx={{ width: '100%', typography: 'body1' }}>
+    <TabContext value={value}>
+    
+      <Box sx={{ borderBottom: 1, borderColor: 'divider' }} className={style.box}>
+        <TabList onChange={handleChange} aria-label="lab API tabs example" variant='scrollable' scrollButtons allowScrollButtonsMobile >
+        {trustedPartners?.map(({id,image}) => (
+            <Tab icon= {<Image src={image} alt="google"  />} value={id} key={id}/>
+        ))}
+        </TabList>
+      </Box>
+    
+      {trustedPartners?.map(({id,review,author}) => (
+            <TabPanel value={id} key={id}>
+                <h1 className={style.reviews}>{review}</h1>
+                <p className={style.author}>{author}</p>
+            </TabPanel>
+      ))}
+    
+    </TabContext>
+
+  </Box>
   )
 }
 

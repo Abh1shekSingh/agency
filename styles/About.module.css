@@ -1,6 +1,6 @@
 .container{
     background-color: #fbf5f1;
-    padding: 5em 3em 1em 3em;
+    padding: 5em 2em 1em 2em;
     margin-top: 1.5em;
     gap: 2em;
     display: flex;
@@ -59,17 +59,37 @@
     /* margin: 0 auto; */
 }
 
-.partners{
-    margin-top: 4em;
-    margin-bottom: 2em;
+.trustedbyWrapper{
+    background-color: red;
+}
+.reviews{
+    font-family: 'B612',sans-serif;
+    color: #333;
+    font-weight: lighter;
+    font-size: 16px;
+    width: 95%;
+    padding-top: 2em;
+    line-height: 2;
+    margin: 0 auto;
+    text-align: left;
+}
+.author{
+    text-align: left;
+    font-family: 'DM Sans',sans-serif;
+    font-size: 14px;
+    padding-top: 1em;
+    margin: 0 auto;
+    line-height: 2;
+    color: grey;
+    width: 95%;
+}
+.box{
     display: flex;
-    flex-direction: column;
-    gap: 2em;
     justify-content: center;
     align-items: center;
-    /* margin: 0em auto; */
+    margin: 0 auto;
+    padding: 4em 0 0 0;
 }
-
 @media only screen and (min-width:768px){
     .heading h2{
         font-size: 38px;
@@ -86,5 +106,17 @@
     }
     .gridItem{
         display: flex;
+    }
+    .reviews{
+        font-size: 28px;
+        width: 60%;
+
+    }
+    .author{
+        width: 60%;
+    }
+    .box{
+        flex-direction: column;
+        padding: 6em 0 0 0;
     }
 }
