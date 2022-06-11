@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import style from "../../../styles/Header.module.css"
 import {FaMagento} from "react-icons/fa"
 import {GiHamburgerMenu} from "react-icons/gi"
+import HeaderDropDown from './HeaderDropDown'
 
 const Header = () => {
 
@@ -30,18 +31,7 @@ const Header = () => {
             <p>Get Started</p>
             <GiHamburgerMenu onClick={handleToggle} className={style.hamIcon} />
         </div>
-        <div className={navbar ? style.sidenavbar : style.closedNavbar}>
-          <div className={style.inSidebarlogo}>
-              <FaMagento className={style.inSidebarlogoIcon} />
-              <h3>Ninja Agents</h3>
-          </div>
-          <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Team</li>
-            <li>Hire</li>
-          </ul>
-        </div>
+        <HeaderDropDown navbar = {navbar} setNavbar = {setNavbar} />
     </div>
   )
 }
