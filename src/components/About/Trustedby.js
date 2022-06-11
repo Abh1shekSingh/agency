@@ -2,6 +2,7 @@ import React,{useState} from 'react'
 import Image from "next/image"
 import Box from '@mui/material/Box';
 import Tab from '@mui/material/Tab';
+import Avatar from "@mui/material/Avatar"
 import TabContext from '@mui/lab/TabContext';
 import TabList from '@mui/lab/TabList';
 import TabPanel from '@mui/lab/TabPanel';
@@ -22,7 +23,7 @@ const Trustedby = () => {
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }} className={style.box}>
         <TabList onChange={handleChange} aria-label="lab API tabs example" variant='scrollable' scrollButtons allowScrollButtonsMobile >
         {trustedPartners?.map(({id,image}) => (
-            <Tab  icon= {<Image src={image} alt="google" layout='responsive' />} value={id} key={id} className={style.tabsParent} />
+            <Tab  icon= {<Image src={image} alt="logo"  />} value={id} key={id} className={style.tabsParent} />
         ))}
         </TabList>
       </Box>
