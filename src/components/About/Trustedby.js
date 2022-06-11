@@ -22,7 +22,7 @@ const Trustedby = () => {
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }} className={style.box}>
         <TabList onChange={handleChange} aria-label="lab API tabs example" variant='scrollable' scrollButtons allowScrollButtonsMobile >
         {trustedPartners?.map(({id,image}) => (
-            <Tab icon= {<Image src={image} alt="google"  />} value={id} key={id}/>
+            <Tab  icon= {<Image src={image} alt="google" layout='responsive' />} value={id} key={id} className={style.tabsParent} />
         ))}
         </TabList>
       </Box>
