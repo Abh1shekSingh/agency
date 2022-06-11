@@ -23,14 +23,14 @@ const Trustedby = () => {
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }} className={style.box}>
         <TabList onChange={handleChange} aria-label="lab API tabs example" variant='scrollable' scrollButtons allowScrollButtonsMobile >
         {trustedPartners?.map(({id,image}) => (
-            <Tab  icon= {<Image src={image} alt="logo" />} value={id} key={id} className={style.tabsParent} />
+            <Tab  icon= {<Image src={image} alt="logo"  />} value={id} key={id} className={style.tabsParent} />
         ))}
         </TabList>
       </Box>
     
-      {trustedPartners?.map(({id,review,author}) => (
+      {trustedPartners?.map(({id,quote,author}) => (
             <TabPanel value={id} key={id}>
-                <h1 className={style.reviews}>{review}</h1>
+                <h1 className={style.quote}>{quote}</h1>
                 <p className={style.author}>{author}</p>
             </TabPanel>
       ))}

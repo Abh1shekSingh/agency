@@ -46,9 +46,9 @@ export const developers = [
 
 
 export const trustedPartners =[
-    {id:1,image:uber, author:"By Denny Albaz, CEO of Paypal", review:"“Whatever we create in Qwilr looks absolutely brilliant. It helps show our work in the best light, and is downright impressive when clients see a Qwilr Page we have made for them.”"},
-    {id:2,image:google, author:"By Denny Albaz, CEO of Paypal", review:"“Qwilr Page we have made for them. Whatever we create in Qwilr looks absolutely brilliant. It helps show our work in the best light, and is downright impressive when clients see a””"},
-    {id:3,image:paypal, author:"By Denny Albaz, CEO of Paypal", review:"“Whatever we create in Qwilr looks absolutely brilliant. It helps show our work in the best light, and is downright impressive when clients see a Qwilr Page we have made for them.”"},
-    {id:4,image:microsoft, author:"By Denny Albaz, CEO of Paypal", review:"“Qwilr Page we have made for them. Whatever we create in Qwilr looks absolutely brilliant. It helps show our work in the best light, and is downright impressive when clients see a”"},
-    {id:5,image:dribbble, author:"By Denny Albaz, CEO of Paypal", review:"“Whatever we create in Qwilr looks absolutely brilliant. It helps show our work in the best light, and is downright impressive when clients see a Qwilr Page we have made for them.”"},
+    {id:1,image:uber, author:"By Dara Khosrowshahi, CEO of Uber", quote:"“Whatever we create in Qwilr looks absolutely brilliant. It helps show our work in the best light, and is downright impressive when clients see a Qwilr Page we have made for them.”"},
+    {id:2,image:google, author:"By Sundar Pichai, CEO of Google", quote:"“Qwilr Page we have made for them. Whatever we create in Qwilr looks absolutely brilliant. It helps show our work in the best light, and is downright impressive when clients see a””"},
+    {id:3,image:paypal, author:"By Denny Albaz, CEO of Paypal", quote:"“Whatever we create in Qwilr looks absolutely brilliant. It helps show our work in the best light, and is downright impressive when clients see a Qwilr Page we have made for them.”"},
+    {id:4,image:microsoft, author:"By Satya Nadela, CEO of Microsoft", quote:"“Qwilr Page we have made for them. Whatever we create in Qwilr looks absolutely brilliant. It helps show our work in the best light, and is downright impressive when clients see a”"},
+    {id:5,image:dribbble, author:"By Zack Onisko, CEO of Dribbble", quote:"“Whatever we create in Qwilr looks absolutely brilliant. It helps show our work in the best light, and is downright impressive when clients see a Qwilr Page we have made for them.”"},
 ];
